@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app-heading {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 36px;
+  color: #58a6ff;
+  text-transform: uppercase;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #1f1f1f;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.movie-poster {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.movie-details {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.movie-title {
+  font-size: 28px;
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+.movie-description {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
